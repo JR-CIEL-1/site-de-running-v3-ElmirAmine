@@ -163,3 +163,18 @@ footer ul li a:hover {
   color: red;
   background-color: #f2dede;
 }
+.form-control.valid{
+  border: 2px solid green;
+}
+
+.form-control.error{
+  border: 2px solid red;
+}
+
+.form-check-label.valid{
+  color: #dc3545;
+}
+
+.form-check-label.error{
+  color: green;
+}
