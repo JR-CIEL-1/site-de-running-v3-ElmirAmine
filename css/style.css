@@ -155,26 +155,30 @@ footer ul li a:hover {
   border-radius: 5px;
   font-weight: bold;
 }
-.alert-success {
-  color: green;
-  background-color: #dff0d8;
-}
-.alert-danger {
-  color: red;
-  background-color: #f2dede;
-}
-.form-control.valid{
-  border: 2px solid green;
+/* styles.css */
+
+/* Style de base pour les éléments du formulaire */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
 }
 
-.form-control.error{
-  border: 2px solid red;
+/* Style pour les messages d'erreur */
+.error-message {
+  color: #ff0000;
+  margin-top: 5px;
+  font-size: 14px;
 }
 
-.form-check-label.valid{
-  color: #dc3545;
+/* Style pour indiquer les champs valides */
+.valid {
+  border: 2px solid #4caf50; /* Couleur verte */
 }
 
-.form-check-label.error{
-  color: green;
+/* Style pour indiquer les champs invalides */
+.error {
+  border: 2px solid #ff0000; /* Couleur rouge */
 }
+
